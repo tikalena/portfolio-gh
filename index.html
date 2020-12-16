@@ -1,0 +1,204 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Alena Tikhonova Portfolio">
+    <meta name="keywords" content="Alena Tikhonova, portfolio, IT Engineering, web design">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cssbox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <nav class="navBar">
+        <a href="gallery.html">Gallery</a>
+        <a href="myworks.html">My Works</a>
+        <a href="about.html">About Me</a>
+        <a href="index.html">Home</a>
+    </nav>
+
+<header id="home">
+    <div class="backgroundVideo">
+        <video  poster="img/noneVideo.JPG" autoplay muted loop>
+            <source src="video/after.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+            <div class="overlayContent">
+                <h1 style="margin: 10px;">Alena</h1>
+                <h2>IT Engineering student with specialisation in Media Technology</h2>
+                <a href="about.html" class="btn btn-1" style="margin-top: 250px;">About Me</a> 
+            </div>
+</header>
+
+<section id="myWorks" style="margin-top: 50px; margin-bottom: 50px;">
+    <h1 style="font-size: 3.3em; color:white; text-align: center;">My Works</h1>
+        <section id="worksExample" style="margin-top: 50px; margin-bottom: 50px;">
+    
+            <div class="contentWorks">
+        <div class="duck">
+            <img src="img/duck_hunt.JPG" height="200px" width="100%"/>
+            <hr style="border: 4px solid rgb(111, 10, 151);"></hr>
+            <div class="description" style="height: 150px; background: rgb(111, 10, 151)">
+                <p style="color: white; font-size: 1.3em;">The old game "Duck Hunt" <br>Using pure CSS and a bit of JavaScript. <br>Check here with a sound on: <a href="http://users.metropolia.fi/~alenat/duckHunt/" style="text-decoration: underline; color: black;">Duck Hunt</a></p>
+            </div>    
+            <hr style="border: 4px solid rgb(111, 10, 151);"></hr>
+
+        </div> 
+
+
+    <div class="ainoLogo">
+        
+         <div class="card" style="max-height: 450px; width: 500px;">
+         
+             <img src="img/Final.png" alt="Tonttilan Aino" style="width:100%">
+         
+           <p><button id="buttonFrontage" onclick="document.getElementById('julkisivuModal').style.display='block'">Logo on a frontage</button></p>
+           <div id="julkisivuModal" class="modal">
+ 
+             <!-- Modal content -->
+             <div class="modal-content">
+         
+                 <span class="close" onclick="document.getElementById('julkisivuModal').style.display='none'">&times;</span>
+               <img class="modal-content" id="img01" style="height: 60%; width: 100%; margin-top: 20px;" src="img/julkisivu.JPG">
+             </div>
+           
+           </div>
+           
+           <p><button id="buttonWebPage" onclick="document.getElementById('webPageModal').style.display='block'">Logo on a webpage</button></p>
+           <div id="webPageModal" class="modal2">
+ 
+             <!-- Modal content -->
+             <div class="modal-content">
+               
+                 <span class="close" onclick="document.getElementById('webPageModal').style.display='none'">&times;</span>
+                 <img class="modal-content" id="img02" style="height: 100%; width: 60%;" src="img/websivu.JPG">
+             </div>
+</div>
+       
+    </div>
+
+    
+ 
+        
+</section>
+
+    </div>
+    <a href="myworks.html" class="btn btn-2" style="left: 45%;">More Works</a> 
+</section>
+
+        <section id="gallery" style="margin-top: 100px;">
+            <h1 style="font-size: 3.3em; color: white">The Planet Through My Eyes</h1>
+            <div class="galleryPortfolio"> 
+                <div class="lightboxImg">
+                    <div class="imgAnimation">
+                        <a href="#image-1" >
+                            <img src="img/img2.jpg" alt="Samarkand">
+                        </a>
+                    </div>
+                        <div class="lightboxOverlay" id="image-1">
+                            <img src="img/img2.jpg" alt="Machu Pichu">
+                        
+                            <a href="#image-6" class="lb-prev"><</a>
+                            <a href="#image-2" class="lb-next">></a>
+        
+                            <a href="#gallery" class="lb-close">X</a>
+                        </div>     
+    
+                        <div class="imgAnimation">
+                            <a href="#image-2" >
+                                <img src="img/img3.jpg" alt="Machu Pichu">
+                            </a>
+                        </div>
+                            <div class="lightboxOverlay" id="image-2">
+                                <img src="img/img3.jpg" alt="Helsinki">
+                                <a href="#image-1" class="lb-prev"><</a>
+                                <a href="#image-3" class="lb-next">></a>
+                                <a href="#gallery" class="lb-close">X</a>
+                            </div>    
+
+                            <div class="imgAnimation">
+                                <a href="#image-3" >
+                                    <img src="img/img10.jpg" alt="Sofia">
+                                </a>
+                            </div>
+                            <div class="lightboxOverlay" id="image-3">
+                                <img src="img/img10.jpg" alt="Bulgaria">
+                                    <a href="#image-2" class="lb-prev"><</a>
+                                    <a href="#image-3" class="lb-next">></a>
+                                    <a href="#gallery" class="lb-close">X</a>
+                            </div>  
+
+                            <div class="imgAnimation">
+                                <a href="#image-4" >
+                                    <img src="img/img12.jpg" alt="Singapore">
+                                </a>
+                            </div>
+                            <div class="lightboxOverlay" id="image-4">
+                                <img src="img/img12.jpg" alt="Singapore">
+                                                        
+                            <a href="#image-3" class="lb-prev"><</a>
+                            <a href="#image-5" class="lb-next">></a>
+                            <a href="#gallery" class="lb-close">X</a>
+                            </div>  
+    
+                            <div class="imgAnimation">
+                                <a href="#image-5" >
+                                    <img src="img/img13.jpg" alt="Agra">
+                                </a>
+                            </div>
+                                <div class="lightboxOverlay" id="image-5">
+                                    <img src="img/img13.jpg" alt="Agra">
+                                                            
+                                        <a href="#image-4" class="lb-prev"><</a>
+                                        <a href="#image-6" class="lb-next">></a>
+                                        <a href="#gallery" class="lb-close">X</a>
+                            </div>  
+    
+                            <div class="imgAnimation">
+                                    <a href="#image-6" >
+                                        <img src="img/img17.jpg" alt="Venice">
+                                    </a>
+                            </div>
+                                <div class="lightboxOverlay" id="image-6">
+                                    <img src="img/img17.jpg" alt="Venice">
+                                <a href="#image-5" class="lb-prev"><</a>
+                                <a href="#image-1" class="lb-next">></a>
+                                <a href="#gallery" class="lb-close">X</a>
+                            </div>  
+                </div>
+            </div>
+            <a href="gallery.html" class="btn btn-2" style="left: 45%;">More pictures</a> 
+        </section>
+        
+ 
+    <footer class="contactFooter">
+    
+        <div class="contactMe">
+            <h1 style="margin-top: 35px; font-size: 3.3em;">Get in Touch</h1>
+            <div class="wrapContent">
+        <div class="mailMe" style="margin-right: 10%;">
+            <h2>Email </h2>
+            <div id="mailTo"><a href=mailto:tikalena@gmail.com>tikalena@gmail.com</a></div>
+        </div>    
+        <div class="socialMedia">
+            <h2 style="text-align:center">Connect Online</h2>
+            <ul>
+                <li><a href="https://github.com/tikalena"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/alena-tikhonova-9b294b17/"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/ale_tih/"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/watch?v=dO5iNyztaT0&feature=youtu.be&ab_channel=AlenaTikhonova"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </div>
+        </div>
+    </footer>
+
+        <script type="text/javascript" src="js/js.js"></script>
+</body>
+
+</html>
