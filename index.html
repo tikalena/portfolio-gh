@@ -12,9 +12,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDWPGN6YXW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    <nav class="navBar">
+  gtag('config', 'G-ZDWPGN6YXW');
+</script>
+
+<body style="overflow-x:hidden;">
+
+    <nav class="navBar" id="navigation">
         <a href="gallery.html">Gallery</a>
         <a href="myworks.html">My Works</a>
         <a href="about.html">About Me</a>
@@ -35,64 +45,64 @@
             </div>
 </header>
 
-<section id="myWorks" style="margin-top: 50px; margin-bottom: 50px;">
-    <h1 style="font-size: 3.3em; color:white; text-align: center;">My Works</h1>
-        <section id="worksExample" style="margin-top: 50px; margin-bottom: 50px;">
-    
-            <div class="contentWorks">
-        <div class="duck">
-            <img src="img/duck_hunt.JPG" height="200px" width="100%"/>
-            <hr style="border: 4px solid rgb(111, 10, 151);"></hr>
-            <div class="description" style="height: 150px; background: rgb(111, 10, 151)">
-                <p style="color: white; font-size: 1.3em;">The old game "Duck Hunt" <br>Using pure CSS and a bit of JavaScript. <br>Check here with a sound on: <a href="http://users.metropolia.fi/~alenat/duckHunt/" style="text-decoration: underline; color: black;">Duck Hunt</a></p>
-            </div>    
-            <hr style="border: 4px solid rgb(111, 10, 151);"></hr>
-
-        </div> 
-
-
-    <div class="ainoLogo">
+<section id="myWorks" style="height: 100%;">
+    <h1 class="homeTitle">My Works</h1>
+        <div class="worksExample">
+            <div class="container">
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <h2 style="color: white;">CSS Sprite</h2>
+                            <img src="img/duck_hunt.JPG" height="100px" width="100%" border="1px solid white;" margin-bottom="100px"/>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>The old game "Duck Hunt". <br>Using pure CSS and a bit of JavaScript. <br>Check here with a sound on: <br> <a href="http://users.metropolia.fi/~alenat/duckHunt/" 
+                            >Duck Hunt</a></p>
+                        </div>
+                    </div>
+                </div>
         
-         <div class="card" style="max-height: 450px; width: 500px;">
-         
-             <img src="img/Final.png" alt="Tonttilan Aino" style="width:100%">
-         
-           <p><button id="buttonFrontage" onclick="document.getElementById('julkisivuModal').style.display='block'">Logo on a frontage</button></p>
-           <div id="julkisivuModal" class="modal">
- 
-             <!-- Modal content -->
-             <div class="modal-content">
-         
-                 <span class="close" onclick="document.getElementById('julkisivuModal').style.display='none'">&times;</span>
-               <img class="modal-content" id="img01" style="height: 60%; width: 100%; margin-top: 20px;" src="img/julkisivu.JPG">
-             </div>
-           
-           </div>
-           
-           <p><button id="buttonWebPage" onclick="document.getElementById('webPageModal').style.display='block'">Logo on a webpage</button></p>
-           <div id="webPageModal" class="modal2">
- 
-             <!-- Modal content -->
-             <div class="modal-content">
-               
-                 <span class="close" onclick="document.getElementById('webPageModal').style.display='none'">&times;</span>
-                 <img class="modal-content" id="img02" style="height: 100%; width: 60%;" src="img/websivu.JPG">
-             </div>
-</div>
-       
-    </div>
-
-    
- 
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <h2 style="color: white;">Parralax Effect</h2>
+                            <img src="img/parallax.JPG" height="100px" width="100%;" border="1px solid white;">
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Parallax effect.<br> The elements change position (along the X and Y axises), when user moves the mouse over the image.</p>
+                            <a href="http://users.metropolia.fi/~alenat/parallax/parallax.html">Parallax</a>
+                        </div>
+                    </div>
+                </div>
         
+        
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <h2 style="font-size: 1.8em; color: white;">Logo Design</h2>
+                            <img src="img/Final.jpg" height="100px" width="100%;" border="1px solid white;">
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>The logo design for a new restaurant Tonttilan Aino</p>
+                            <a href="myworks.html#logo">Logo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+    <a href="myworks.html" class="btn btn-2" style="left: 42%; margin-top: 20px;">More Works</a> 
 </section>
 
-    </div>
-    <a href="myworks.html" class="btn btn-2" style="left: 45%;">More Works</a> 
-</section>
-
-        <section id="gallery" style="margin-top: 100px;">
-            <h1 style="font-size: 3.3em; color: white">The Planet Through My Eyes</h1>
+        <section id="gallery" style="margin-top: 30px;">
+            <h1 class="homeTitle">The Planet The Way I See It</h1>
+            
             <div class="galleryPortfolio"> 
                 <div class="lightboxImg">
                     <div class="imgAnimation">
@@ -172,14 +182,17 @@
                             </div>  
                 </div>
             </div>
-            <a href="gallery.html" class="btn btn-2" style="left: 45%;">More pictures</a> 
+            <a href="gallery.html" class="btn btn-2" style="left: 42%; margin-top: 20px;">More pictures</a> 
         </section>
         
  
-    <footer class="contactFooter">
-    
+    <footer class="contactFooter" style="margin-top: -75px;">
+        
         <div class="contactMe">
-            <h1 style="margin-top: 35px; font-size: 3.3em;">Get in Touch</h1>
+            <div class="wave-container" style="overflow: hidden; margin-bottom: -200px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#222831" fill-opacity="1" d="M0,160L80,138.7C160,117,320,75,480,69.3C640,64,800,96,960,117.3C1120,139,1280,149,1360,154.7L1440,160L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+            </div>
+            <h1>Get in Touch</h1>
             <div class="wrapContent">
         <div class="mailMe" style="margin-right: 10%;">
             <h2>Email </h2>
