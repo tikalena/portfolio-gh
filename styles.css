@@ -762,6 +762,8 @@ text-shadow: 0 0 5px whitesmoke;
 color:rgb(0, 128, 128);
 }
 
+
+
 @keyframes animate-border-2 {
   0% {
     width: 0;
@@ -1155,7 +1157,7 @@ width: 90%;
   margin-right: 5%;
 }
 
-.w3-col img{
-  margin-top: 15%;
+.workName{
+  margin-top: 5%;
 }
 }
