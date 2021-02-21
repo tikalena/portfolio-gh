@@ -1,0 +1,59 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Alena Tikhonova Portfolio">
+    <meta name="keywords" content="Alena Tikhonova, portfolio, IT Engineering, web design">
+    <title>Alena Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+    <nav class="navBar" id="navigation">
+        <a href="gallery.html" >Gallery</a>
+        <a href="myworks.html">My Works</a>
+        <a href="about.html" >About</a>
+        <a href="index.html" >Home</a>
+    </nav>
+
+    
+<div class="StudentPlanner">
+     <img src="img/study.png" alt="Student Planner" style="height: 170px; width: 300px; margin-top:105px; margin-bottom: 30px;">
+
+<p style="font-size: 1.3em;">During Innovation Boot Camp program, student had to come up with an innovative idea and make a prototype in Figma. <br>
+    The idea of this project was to make a student planner platform, that will help to organize a student's schedule. It would remind about an assignments and deadlines, as well as to have all information about a course and all links. 
+    The platform interface changes with a semester season.
+</p>
+
+    <h2 style="margin-bottom: 35px; font-size: 2.5em; text-shadow:3px 3px black;">Gallery</h2>
+
+<div>
+    <img src="img/studentb.jpg" alt="Student Planner" style="width: 50%; height: 70%; margin: 20px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);">
+    <img src="img/studentb2.jpg" alt="Student Planner" style="width: 50%; height: 70%; margin: 20px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);">
+</div>
+
+<div class="buttom">
+<a href="myworks.html" class="btn btn-2" style="left: 42%; margin-top: 20px;">View all works</a> 
+</div>
+
+</div>
+    
+<script>
+     
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navigation").style.top = "0";
+      } else {
+        document.getElementById("navigation").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+    
+          </script>
+
+</body>

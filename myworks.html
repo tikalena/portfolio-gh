@@ -6,187 +6,188 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Alena Tikhonova Portfolio">
     <meta name="keywords" content="Alena Tikhonova, portfolio, IT Engineering, web design">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/cssbox.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Alena Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
 </head>
 
 <body>
 
     <nav class="navBar" id="navigation">
-        <a href="gallery.html">Gallery</a>
-        <a href="myworks.html">My Works</a>
-        <a href="about.html">About Me</a>
-        <a href="index.html">Home</a>
+      <a href="index.html" >Home</a>
+      <a href="gallery.html" >Gallery</a>
+      <a href="about.html" >About</a>
+      <a href="myworks.html" style="color: rgb(0, 128, 128); ">My Works</a>
     </nav>
 
-    
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-   
-    <div class="headerMyWorks" style="height: 90%;">
-        <h1 class="titleGradient">My Works</h1>
-        <h3 style="font-size: 1.5em;" >My passion is UI/ UX, graphical and web design. <br>During my studies and in my free time, I have participated in several projects <br> and completed a lot of interesting assignments.<br> 
-            Please take a look at some of my works below.</h3>
+
+    <div class="headerMyWorks">
+        <h1>My Works</h1>
+        <p>During my studies and in my free time, I have participated in several projects <br> and completed a lot of interesting assignments.<br> 
+            Please take a look at some of my works below.</p>
          
          <div class="workChoose">
-            <a href="#webSection">Web Development</a>
-             <a href="#illustration">Illustration</a>
-             <a href="#logo">Logo Design</a>
+            <a href="#webSection" class="w3-mobile">Web Development</a>
+             <a href="#illustration" class="w3-mobile">Graphic Design</a>
+             <a href="#motionGraphic" class="w3-mobile">Motion Graphic</a>
         </div>
-         
     </div> 
 
 
-<div id="webSection"> 
-<h3 style="margin-bottom: 45px; font-size: 2.5em;">Web Development</h3>
-    <div class="containerWeb">
-    <div class="container">
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
-                    <h2>CSS Sprite</h2>
-                    <img src="img/duck_hunt.JPG" height="100px" width="100%" border="1px solid white;" margin-bottom="100px"/>
-                </div>
-            </div>
-            <div class="face face2">
-                <div class="content">
-                    <p>The old game "Duck Hunt". <br>Using pure CSS and a bit of JavaScript. <br>Check here with a sound on: <br> <a href="http://users.metropolia.fi/~alenat/duckHunt/" target="_blank" 
-                    >Duck Hunt</a></p>
-                </div>
-            </div>
-        </div>
+    <div id="webSection"> 
+        <h3 style="font-size: 3vw; margin-bottom: 200px; text-shadow:3px 3px black;">Web Development</h3>
 
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
-                    <h2>Parralax Effect</h2>
-                    <img src="img/parallax.JPG" height="100px" width="100%;" border="1px solid white;">
-                </div>
-            </div>
-            <div class="face face2">
-                <div class="content">
-                    <p>Parallax effect.<br> The elements change position (along the X and Y axises), when user moves the mouse over the image.</p>
-                    <a href="http://users.metropolia.fi/~alenat/parallax/parallax.html" target="_blank" >Parallax</a>
-                </div>
-            </div>
+        <div class="foxAnimation">
+        <div class="scene">
+            <div class="stars"></div>
+            <div class="moon"> </div>
+            <div class="trees"></div>
+            <div class="fox"></div>
         </div>
+      </div>
+      
+    <div class="workExample" style="margin-left: 10%;">
+                  <div class="w3-row">
+              <div class="w3-col w3-container workName" style="width: 15%;">
+                <img src="img/logo.png" alt="Tonttilan Aino" style="height: 75px; width: 150px; margin-right:15px;">
+              </div>
+              <div class="w3-col w3-container" style="width: 45%;"><p style="font-size: 3vh; float: left;">Web developent and logo design
+                <br><a href="tonttilanaino.html" target="_blank" style="color: rgb(0, 128, 128); float: left; ">Lean More ></a></p></div>
+            
+                   <div class="w3-col w3-container workImg" style="width: 25%;">
+                    <a href="tonttilanaino.html" target="_blank"><img src="img/tnmain.jpg" alt="Duck Hunt" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);"></a>
+                    </div>
+                  </div>
 
+                  <div class="w3-row">
+                    <div class="w3-col w3-container workName" style="width: 15%;">
+                      <img src="img/duck.png" alt="Duck Hunt" style="height: 75px; width: 150px; margin-right:15px;">
+                    </div>
+                    <div class="w3-col w3-container" style="width: 45%;"><p style="font-size: 3vh; float: left;">Using pure CSS and a bit of JavaScript.
+                      <br><a href="http://users.metropolia.fi/~alenat/duckHunt/" target="_blank" style="color: rgb(0, 128, 128); float: left; ">Lean More ></a></p></div>
+                  
+                         <div class="w3-col w3-container workImg" style="width: 25%;">
+                          <a href="http://users.metropolia.fi/~alenat/duckHunt/" target="_blank"><img src="img/duck_hunt.JPG" alt="Duck Hunt" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);"></a>
+                          </div>
+                        </div>
+                  
+                        <div class="w3-row">
+                          <div class="w3-col w3-container workName" style="width: 15%;">
+                            <img src="img/study.png" alt="Student Planner" style="height: 75px; width: 150px; margin-right:15px;">
+                          </div>
+                          <div class="w3-col w3-container" style="width: 45%;"><p style="font-size: 3vh; float: left;">A project for an Innovation Boot Camp
+                            <br><a href="student.html" target="_blank" style="color: rgb(0, 128, 128); float: left; ">Lean More ></a></p></div>
+                        
+                               <div class="w3-col w3-container workImg" style="width: 25%;">
+                                <a href="student.html" target="_blank"><img src="img/student.JPG" alt="Student Planner" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5); width: 250px;"></a>
+                                </div>
+                              </div>     
 
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
-                    <h2 style="font-size: 1.8em">Warehouse Web App</h2>
-                    <img src="img/warehouse.JPG" height="100px" width="100%;" border="1px solid white;">
-                </div>
-            </div>
-            <div class="face face2">
-                <div class="content">
-                    <p>The assignment was to make an application that shows the multiple product list in three categories.<br> Using REST API, JS and Heroku </p>
-                    <a href="https://warehouse-web-app-reaktor.herokuapp.com/" target="_blank" >Web App</a>
-                </div>
-            </div>
-        </div>
+                              <div class="w3-row">
+                                <div class="w3-col w3-container workName" style="width: 15%;">
+                                  <img src="img/warehouse.jpg" alt="Warehouse" style="height: 75px; width: 150px; margin-right:15px;">
+                                </div>
+                                <div class="w3-col w3-container" style="width: 45%;"><p style="font-size: 3vh; text-align: left;">Application that shows the multiple product list in three categories. Using REST API, JS and Heroku 
+                                  <br><a href="https://warehouse-web-app-reaktor.herokuapp.com/" target="_blank" style="color: rgb(0, 128, 128); float: left; ">Lean More ></a></p></div>
+                              
+                                     <div class="w3-col w3-container workImg" style="width: 25%;">
+                                      <a href="https://warehouse-web-app-reaktor.herokuapp.com/" target="_blank"><img src="img/warehouse.jpg" alt="Warehouse" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5); width: 250px;"></a>
+                                      </div>
+                                    </div>     
     </div>
-</div>
-</div>
 
 
-<div id="graphicDesign" style="margin-top: 50px; margin-bottom: 100px;">
+    <div id="graphicDesign" style="margin-bottom: 100px;">
+
+        <h3 style="margin-bottom: 55px; font-size: 2.5em; text-shadow:3px 3px black;">Graphic Design</h3>
+    <div class="adobeIllustration" id="illustration" style="margin-bottom: 100px;">
+    <div class="slideshow-container" style="height: auto;">
+        <h3 style="color:white; margin-bottom: 50px; font-size: 1.2em">Illustrations were made in Adobe Illustration for a client's new website. 
+          <br>The colors were used following the brand's instructions.</h3>
     
-    <h3 style="margin-bottom: 55px; font-size: 2.5em;">Graphic Design</h3>
-<div class="adobeIllustration" id="illustration" style="margin-bottom: 100px;">
-<div class="slideshow-container">
-    <h3 style="color:white; margin-bottom: 50px; font-size: 1.2em">Illustrations were made in Adobe Illustration for a university project <br> for a client's new website. 
-      <br>The main colours have been used in accordance with the brand's instructions.</h3>
-
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlides fade">
-      <img src="img/main.jpg" style="max-width:600px; height: 300px; border-radius: 10px;">
-      <div class="description" style="font-size: 1.3em;">Main -page Hero image</div>
-    </div>
-  
-    <div class="mySlides fade">
-      <img src="img/partners.jpg" style="width:600px; height: 300px; border-radius: 10px;">
-      <div class="description" style="font-size: 1.3em;">Partners -page hero image</div>
-    </div>
-  
-    <div class="mySlides fade">
-      <img src="img/festival.jpg" style="width:600px; height: 300px; border-radius: 10px;">
-      <div class="description" style="font-size: 1.3em;">Festival -page hero image</div>
-    </div>
-
-    <div class="mySlides fade">
-      <img src="img/join.jpg" style="width:600px; height: 300px; border-radius: 10px;">
-      <div class="description" style="font-size: 1.3em;">Join The Movement -page hero image</div>
-    </div>
-
-    <div class="mySlides fade">
-        <img src="img/value_1.jpg" style="width:600px; height: 300px; border-radius: 10px;">
-        <div class="description" style="font-size: 1.3em;">Value 1. Listening to one another</div>
-      </div>
-
-      <div class="mySlides fade">
-        <img src="img/value_2.jpg" style="width:600px; height: 300px; border-radius: 10px;">
-        <div class="description" style="font-size: 1.3em;">Value 2. Creating a sharing environment</div>
-      </div>
-
-      <div class="mySlides fade">
-        <img src="img/value_3.jpg" style="width:600px; height: 300px; border-radius: 10px;">
-        <div class="description" style="font-size: 1.3em;">Value 3. Being open to new possibilities and increasing our awareness </div>
-      </div>
-
-  
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-  <br>
-  
-  <!-- The dots/circles -->
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-    <span class="dot" onclick="currentSlide(4)"></span>
-    <span class="dot" onclick="currentSlide(5)"></span>
-    <span class="dot" onclick="currentSlide(6)"></span>
-    <span class="dot" onclick="currentSlide(7)"></span>
-  </div>
-</div>
-
-
-<h3 style="color:white; margin-bottom: 50px; margin-top: 50px; font-size: 1.3em">Sketches for a infographic poster on the consumption of halal and kosher food</h3>
-<div class="sketches" style="margin-bottom: 150px;">
-<img src="img/Sketches.jpg" alt="HalalKosherInfographicSketches">
-</div>
-
-
-<h3 style="color:white; margin-bottom: 50px; margin-top: 50px; font-size: 1.3em;">The logo for a new restaurant </h3>
-  <div class="gridContainer" id="logo">
-
-        <div class="ideaExplanation">
-        <p style="font-size: 18px;">Tho logo design combines a modern style with a figure 
-            girl Aino of the finnish national epic Kalevala.<br> I also made a website for a restaurant. Check it here:<br>
-            <a href="https://tonttilanaino.fi/index.html" target="_blank"  style="color:rgb(246, 227, 250);">Tonttilan Aino</a></p>
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <img src="img/main.jpg" style="max-width:600px; height: 300px; border-radius: 10px;">
+          <div class="description" style="font-size: 1.3em;">Main -page Hero image</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="img/partners.jpg" style="width:600px; height: 300px; border-radius: 10px;">
+          <div class="description" style="font-size: 1.3em;">Partners -page hero image</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="img/festival.jpg" style="width:600px; height: 300px; border-radius: 10px;">
+          <div class="description" style="font-size: 1.3em;">Festival -page hero image</div>
         </div>
     
-        <div class="webPage">
-            <img src="img/websivu.JPG" alt="Webpage picture">
-            <div class="overlayWeb">
-                <div class="text" style="margin-top: 30%;">The logo on a webpage</div>
-            </div>
+        <div class="mySlides fade">
+          <img src="img/join.jpg" style="width:600px; height: 300px; border-radius: 10px;">
+          <div class="description" style="font-size: 1.3em;">Join The Movement -page hero image</div>
+        </div>
+    
+        <div class="mySlides fade">
+            <img src="img/value_1.jpg" style="width:600px; height: 300px; border-radius: 10px;">
+            <div class="description" style="font-size: 1.3em;">Value 1. Listening to one another</div>
+          </div>
+    
+          <div class="mySlides fade">
+            <img src="img/value_2.jpg" style="width:600px; height: 300px; border-radius: 10px;">
+            <div class="description" style="font-size: 1.3em;">Value 2. Creating a sharing environment</div>
+          </div>
+    
+          <div class="mySlides fade">
+            <img src="img/value_3.jpg" style="width:600px; height: 300px; border-radius: 10px;">
+            <div class="description" style="font-size: 1.3em;">Value 3. Being open to new possibilities and increasing our awareness </div>
+          </div>
+    
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+      </div>
+    </div>
+    
+    
+    <h3 style="color:white; margin-bottom: 50px; margin-top: 50px; font-size: 1.3em">Sketches for a infographic poster on the consumption of halal and kosher food</h3>
+    <div class="sketches" style="margin-bottom: 100px;">
+    <img src="img/Sketches.jpg" class="sketch" alt="HalalKosherInfographicSketches" style="box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);">
+    </div>
+    </div> 
+
+       <div id="motionGraphic" style="margin-top: 50px; margin-bottom: 100px;">
+       <h3 style="margin-bottom: 55px; font-size: 2.5em; text-shadow:3px 3px black;">Motion Graphic</h3>
+
+       <h3 style="color:white; margin-top: 50px; font-size: 1.3em">Motion Graphic in After Effects</h3>
+       <div class="backgroundVideo">
+       <video poster="img/noneVideo.JPG" autoplay muted loop>
+        <source src="video/after.mp4" type="video/mp4">
+      </video>
     </div>
 
-        <div class="frontage">
-        <img src="img/julkisivu.JPG" alt="Frontage picture">
-        <div class="overlayFront">
-            <div class="text" style="margin-top: 10%;">The logo on the restaurant building</div>
+    
+
+       </div>
+
+       <div class="buttom">
+        <p style="text-align: center; text-shadow:3px 3px black; color: rgb(0, 128, 128);">More coming soon...</p>
         </div>
-</div>
+       <script type="text/javascript" src="js/js.js">
+     
+      </script>
 
-</div>
-</div>     
-
-<script type="text/javascript" src="js/js.js"></script>
 </body>

@@ -4,20 +4,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Gallery</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/js.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
 </head>
 <body>
 
     <nav class="navBar" id="navigation">
-        <a href="gallery.html">Gallery</a>
+        <a href="index.html" >Home</a>
+        <a href="gallery.html" style="color: rgb(0, 128, 128);">Gallery</a>
+        <a href="about.html" >About</a>
         <a href="myworks.html">My Works</a>
-        <a href="about.html">About Me</a>
-        <a href="index.html">Home</a>
     </nav>
-<main>
-    <section id="gallery">
-        <h1 class="galleryTitle">The Planet The Way I See It</h1>
+
+
+
+    <div id="gallery">
+        <h1 class="galleryTitle" style="font-size: 3.5vw; text-transform: uppercase; color: rgb(0, 128, 128); text-shadow: 1px 1px white, 2px 2px #777;">The Planet The Way I See It</h1>
+        
         <h3 style="font-size: 1.5em; margin-bottom: 50px;"> I get my inspiration and new ideas by discovering the world,<br>
             getting to know new people, expanding my own boundaries.</h3>
     
@@ -420,8 +424,20 @@
 
         </div>
 
-    </section>
+    </div>
 
-</main>
 
+    <script>
+            var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navigation").style.top = "0";
+          } else {
+            document.getElementById("navigation").style.top = "-50px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+        
+              </script>
 </body>

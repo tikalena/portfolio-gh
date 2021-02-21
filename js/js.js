@@ -1,16 +1,3 @@
-//Navigation Bar Scroll Hide//
-let prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navigation").style.top = "0";
-  } else {
-    document.getElementById("navigation").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
-}
-
-
 //My Works Graphical Section Image Changing//
 slideIndex = 1;
 showSlides(slideIndex);
@@ -40,6 +27,18 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+//Navigation Bar Scroll Hide//
+let prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navigation").style.top = "0";
+  } else {
+    document.getElementById("navigation").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
 
 //scroll btn//
  //Get the button
@@ -61,3 +60,4 @@ function showSlides(n) {
    document.body.scrollTop = 0;
    document.documentElement.scrollTop = 0;
  }
+ 

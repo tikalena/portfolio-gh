@@ -1,14 +1,12 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Alena Tikhonova Portfolio">
-    <meta name="keywords" content="Alena Tikhonova, portfolio, IT Engineering, web design">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/cssbox.css">
+    <meta name="keywords" content="Alena Tikhonova, portfolio, IT Engineering, web design, UX, UI, graphic design">
+    <title>Alena Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -22,229 +20,166 @@
   gtag('config', 'G-ZDWPGN6YXW');
 </script>
 
-<body style="overflow-x:hidden;">
-
-    <nav class="navBar" id="navigation">
+<body>
+    <nav class="navBar" id="navigation" >
+        <a href="index.html" style="text-shadow: -1px -1px #000, 0 1px 0 #444; color: rgb(0, 128, 128);">Home</a>
         <a href="gallery.html">Gallery</a>
+        <a href="about.html" >About</a>
         <a href="myworks.html">My Works</a>
-        <a href="about.html">About Me</a>
-        <a href="index.html">Home</a>
     </nav>
 
-<header id="home">
-    <div class="backgroundVideo">
-        <video  poster="img/noneVideo.JPG" autoplay muted loop>
-            <source src="video/after.mp4" type="video/mp4">
-        </video>
-    </div>
+<div class="bg">
+    <div class="containerTitle">
+        <div class="boxTitle">
+        <div class="animateTitle">
+        <span class="block"></span>
+        <h1 class="nameAnimate" style="font-size: 3em; text-shadow: -1px -1px #000, 0 1px 0 #444; text-align: center;">Hi! I am Alena</h1>
     
-            <div class="overlayContent">
-                <h1 style="margin: 10px;">Alena</h1>
-                <h2>IT Engineering student with specialisation <br> in Media Technology</h2>
-                <a href="about.html" class="btn btn-1" style="margin-top: 250px;">About Me</a> 
-            </div>
-</header>
+        </div>
+        <div class="mainText">
 
-<section id="myWorks">
-    <h1 class="homeTitle">My Works</h1>
-            <div class="container">
-                <div class="card">
-                    <div class="face face1">
-                        <div class="content">
-                            <h2 style="color: white;">CSS Sprite</h2>
-                            <img src="img/duck_hunt.JPG" height="100px" width="100%" border="1px solid white;" margin-bottom="100px"/>
-                        </div>
-                    </div>
-                    <div class="face face2">
-                        <div class="content">
-                            <p>The old game "Duck Hunt". <br>Using pure CSS and a bit of JavaScript. <br>Check here with a sound on: <br> <a href="http://users.metropolia.fi/~alenat/duckHunt/" target="_blank" 
-                            >Duck Hunt</a></p>
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="card">
-                    <div class="face face1">
-                        <div class="content">
-                            <h2 style="color: white;">Graphic Design</h2>
-                            <img src="img/festival.jpg" height="100px" width="100%;" border="1px solid white;">
-                        </div>
-                    </div>
-                    <div class="face face2">
-                        <div class="content">
-                            <p>Illustrations<br> made in Adobe Illustration for a university project</p>
-                            <a href="myworks.html#illustration" target="_blank" >Graphic Design</a>
-                        </div>
-                    </div>
-                </div>
-        
-        
-                <div class="card">
-                    <div class="face face1">
-                        <div class="content">
-                            <h2 style="font-size: 1.8em; color: white;">Logo Design</h2>
-                            <img src="img/Final.jpg" height="100px" width="100%;" border="1px solid white;">
-                        </div>
-                    </div>
-                    <div class="face face2">
-                        <div class="content">
-                            <p>The logo design for a new restaurant Tonttilan Aino</p>
-                            <a href="myworks.html#logo" target="_blank" >Logo Design</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <p class="second" style="font-size: 1.5vw;">IT Engineering student with specialisation in Media Technology
+                highly competent in customer service with
+               4 years of experience in leading multicultural teams. </p>
+
+            <p class="first">My passion is UI/ UX, <br>graphic and web design. </p>
+       
             
-    <a href="myworks.html" class="btn btn-2" style="left: 42%; margin-top: 20px;">More Works</a> 
-</section>
-
-        <section id="gallery" style="margin-top: 100px;">
-            <h1 class="homeTitle">The Planet The Way I See It</h1>
-            
-                <div class="lightboxImg">
-                    <div class="imgAnimation">
-                        <a href="#image-1" >
-                            <img src="img/img15.jpg" alt="Samarkand">
-                        </a>
-                    </div>
-                        <div class="lightboxOverlay" id="image-1">
-                            <img src="img/img15.jpg" alt="Uzbekistan">
-                        
-                            <a href="#image-9" class="lb-prev"><</a>
-                            <a href="#image-2" class="lb-next">></a>
+        </div>
+        </div>
+       
+        </div>
         
-                            <a href="#gallery" class="lb-close">X</a>
-                        </div>     
     
-                        <div class="imgAnimation">
-                            <a href="#image-2" >
-                                <img src="img/img14.jpg" alt="Machu Pichu">
-                            </a>
-                        </div>
-                            <div class="lightboxOverlay" id="image-2">
-                                <img src="img/img14.jpg" alt="Peru">
-                                <a href="#image-1" class="lb-prev"><</a>
-                                <a href="#image-3" class="lb-next">></a>
-                                <a href="#gallery" class="lb-close">X</a>
-                            </div>    
-
-                            <div class="imgAnimation">
-                                <a href="#image-3" >
-                                    <img src="img/img11.jpg" alt="Bulgaria">
-                                </a>
-                            </div>
-                            <div class="lightboxOverlay" id="image-3">
-                                <img src="img/img11.jpg" alt="Bulgaria">
-                                    <a href="#image-2" class="lb-prev"><</a>
-                                    <a href="#image-4" class="lb-next">></a>
-                                    <a href="#gallery" class="lb-close">X</a>
-                            </div>  
-
-                            <div class="imgAnimation">
-                                <a href="#image-4" >
-                                    <img src="img/img7.jpg" alt="Singapore">
-                                </a>
-                            </div>
-                            <div class="lightboxOverlay" id="image-4">
-                                <img src="img/img7.jpg" alt="Singapore">
-                                                        
-                            <a href="#image-3" class="lb-prev"><</a>
-                            <a href="#image-5" class="lb-next">></a>
-                            <a href="#gallery" class="lb-close">X</a>
-                            </div>  
-    
-                            <div class="imgAnimation">
-                                <a href="#image-5" >
-                                    <img src="img/img13.jpg" alt="Peru">
-                                </a>
-                            </div>
-                                <div class="lightboxOverlay" id="image-5">
-                                    <img src="img/img13.jpg" alt="Peru">
-                                                            
-                                        <a href="#image-4" class="lb-prev"><</a>
-                                        <a href="#image-6" class="lb-next">></a>
-                                        <a href="#gallery" class="lb-close">X</a>
-                            </div>  
-    
-                            <div class="imgAnimation">
-                                    <a href="#image-6" >
-                                        <img src="img/img19.jpg" alt="Austria">
-                                    </a>
-                            </div>
-                                <div class="lightboxOverlay" id="image-6">
-                                    <img src="img/img19.jpg" alt="Austria">
-                                <a href="#image-5" class="lb-prev"><</a>
-                                <a href="#image-7" class="lb-next">></a>
-                                <a href="#gallery" class="lb-close">X</a>
-                            </div>  
-
-                            <div class="imgAnimation">
-                                <a href="#image-7" >
-                                    <img src="img/img17.jpg" alt="Venice">
-                                </a>
-                        </div>
-                            <div class="lightboxOverlay" id="image-7">
-                                <img src="img/img17.jpg" alt="Venice">
-                            <a href="#image-6" class="lb-prev"><</a>
-                            <a href="#image-8" class="lb-next">></a>
-                            <a href="#gallery" class="lb-close">X</a>
-                        </div>  
-
-                        <div class="imgAnimation">
-                            <a href="#image-8" >
-                                <img src="img/img16.jpg" alt="China">
-                            </a>
-                    </div>
-                        <div class="lightboxOverlay" id="image-8">
-                            <img src="img/img16.jpg" alt="China">
-                        <a href="#image-7" class="lb-prev"><</a>
-                        <a href="#image-9" class="lb-next">></a>
-                        <a href="#gallery" class="lb-close">X</a>
-                    </div>  
-
-                    <div class="imgAnimation">
-                        <a href="#image-9" >
-                            <img src="img/img24.jpg" alt="Iceland">
-                        </a>
-                </div>
-                    <div class="lightboxOverlay" id="image-9">
-                        <img src="img/img24.jpg" alt="Iceland">
-                    <a href="#image-8" class="lb-prev"><</a>
-                    <a href="#image-1" class="lb-next">></a>
-                    <a href="#gallery" class="lb-close">X</a>
-                </div>  
+</div>
 
 
-                </div>
-            <a href="gallery.html" class="btn btn-2" style="left: 42%; margin-top: 20px;">More pictures</a> 
-        </section>
-        
- 
-    <footer class="contactFooter" style="margin-top: -75px;">
-        
-        <div class="contactMe">
-            <div class="wave-container">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#222831" fill-opacity="1" d="M0,160L80,138.7C160,117,320,75,480,69.3C640,64,800,96,960,117.3C1120,139,1280,149,1360,154.7L1440,160L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+<div class="container">
+    <div class="card">
+        <div class="face face1">
+            <div class="content">
+                <h2 style="text-shadow: 1px 1px 1px silver,-1px 1px 1px silver; color: white;">Web Development</h2>
             </div>
-            <h1>Get in Touch</h1>
-            <div class="wrapContent">
-        <div class="mailMe" style="margin-right: 10%;">
-            <h2>Email </h2>
-            <div id="mailTo"><a href=mailto:tikalena@gmail.com>tikalena@gmail.com</a></div>
-        </div>    
-        <div class="socialMedia">
-            <h2 style="text-align:center">Connect Online</h2>
-            <ul>
-                <li><a href="https://github.com/tikalena" target="_blank" ><i class="fa fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/alena-tikhonova-9b294b17/" target="_blank" ><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="https://www.youtube.com/watch?v=dO5iNyztaT0&feature=youtu.be&ab_channel=AlenaTikhonova" target="_blank" ><i class="fa fa-youtube"></i></a></li>
-            </ul>
+        </div>
+        <div class="face face2">
+            <div class="content">
+                <img src="img/waves.png">
+                <a href="myworks.html#webSection" target="_blank">Web Development</a></p>
+            </div>
         </div>
     </div>
-        </div>
-    </footer>
 
-        <script type="text/javascript" src="js/js.js"></script>
+    <div class="card">
+        <div class="face face1">
+            <div class="content">
+                <h2 style="text-shadow: 1px 1px 1px silver,-1px 1px 1px silver; color: white;">Graphic Design</h2>
+            </div>
+        </div>
+        <div class="face face2">
+            <div class="content">
+                <div class="content">
+                    <img src="img/waves.png">
+                    <a href="myworks.html#graphicDesign" target="_blank"> Graphic Design</a>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="face face1">
+            <div class="content">
+                <h2 style="text-shadow: 1px 1px 1px silver,-1px 1px 1px silver; color: white;">Motion Graphic</h2>
+            </div>
+        </div>
+        <div class="face face2">
+            <div class="content">
+                <img src="img/waves.png">
+                <a href="myworks.html#motionGraphic" target="_blank" >Motion Graphic</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="skillsBackground">
+<div class="skills">
+    <h3 style="margin-bottom: 55px; font-size: 3em; text-shadow: 1px 1px 1px silver,-1px 1px 1px silver; color: white;">Skills</h3>
+    
+    <div class="skillsCards">
+        <div class="cards">
+            <img src="img/Communication.png">
+            <div class="descriptionCards"><h3>Communication</h3>
+            <p style="font-size: 15px;"><nobr>Extensive experience in group work</nobr>
+                and communicating with people <nobr>from different cultures </nobr>and backgrounds. I use design to communicate ideas.</p>
+            </div>
+        </div>
+
+            <div class="cards">
+                <img src="img/problemsolving.png">
+                <div class="descriptionCards"><h3><nobr>Problem Solving</nobr></h3>
+                <p style="font-size: 15px;">Using knowledge, facts and data analysis to evaluate problems and find effective and creative solutions.</p>
+                </div>
+            </div>
+
+                <div class="cards">
+                    <img src="img/creativity.png">
+                    <div class="descriptionCards"><h3>Creativity</h3>
+                    <p style="font-size: 15px;"><nobr>Thinking imaginatively,</nobr> <nobr>seeing the world in a new way,</nobr> and turning new ideas into reality. I believe that good visual can add value.</nobr></p>
+                    </div>
+                </div>
+
+                    <div class="cards">
+                        <img src="img/leadership.png">
+                        <div class="descriptionCards"><h3>Leadership</h3>
+                        <p style="font-size: 15px;">More than 4 years of <nobr>experience in leading</nobr> multicultural teams. <nobr>Motivating and inspiring</nobr> <nobr>people to achieve the goals.</nobr></p>
+                        </div>
+                    </div>
+    
+
+
+    </div>
+</div>
+</div>
+
+<footer class="contactFooter">
+
+
+        
+    <div class="contactMe">
+        <div class="wave-container">
+            <svg height="100%" width="100%" id="bg-svg" viewBox="0 0 1440 500" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,500 C 0,500 0,166 0,166 C 75.60082445894884,140.72483682583305 151.20164891789767,115.44967365166609 229,112 C 306.79835108210233,108.55032634833391 386.7942287873582,126.92614221916867 439,142 C 491.2057712126418,157.07385778083133 515.6214359326693,168.84575747165923 587,179 C 658.3785640673307,189.15424252834077 776.720027481965,197.69082789419443 860,198 C 943.279972518035,198.30917210580557 991.498454139471,190.39093095156306 1055,185 C 1118.501545860529,179.60906904843694 1197.286155960151,176.7454482995534 1264,174 C 1330.713844039849,171.2545517004466 1385.3569220199245,168.6272758502233 1440,166 C 1440,166 1440,500 1440,500 Z" stroke="none" stroke-width="0" fill="#00808088" class="transition-all duration-300 ease-in-out delay-150"></path><path d="M 0,500 C 0,500 0,333 0,333 C 60.4781861903126,308.8488491927173 120.9563723806252,284.6976983854346 181,291 C 241.0436276193748,297.3023016145654 300.65269666781177,334.0580556509791 380,338 C 459.34730333218823,341.9419443490209 558.4328409481278,313.0700790106492 632,300 C 705.5671590518722,286.9299209893508 753.615939539677,289.66162830642395 826,301 C 898.384060460323,312.33837169357605 995.1034008931638,332.28340776365513 1061,337 C 1126.8965991068362,341.71659223634487 1161.9704568876675,331.2047406389557 1220,328 C 1278.0295431123325,324.7952593610443 1359.0147715561661,328.8976296805222 1440,333 C 1440,333 1440,500 1440,500 Z" stroke="none" stroke-width="0" fill="#008080ff" class="transition-all duration-300 ease-in-out delay-150"></path></svg>        </div>
+        <h3 class="contactHeader" style="margin-bottom: 30px; font-size: 3em; text-shadow: 1px 1px 1px silver,-1px 1px 1px silver; color: white;">Get in Touch</h3>
+        <div class="wrapContent">
+    <div class="mailMe" style="margin-right: 10%;">
+        <h3>Email </h3>
+        <div id="mailTo"><a href=mailto:tikalena@gmail.com>tikalena@gmail.com</a></div>
+    </div>    
+    <div class="socialMedia">
+        <h3 style="text-align:center">Connect Online</h3>
+        <ul>
+            <li><a href="https://github.com/tikalena" target="_blank" ><i class="fa fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/alena-tikhonova-9b294b17/" target="_blank" ><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.youtube.com/watch?v=dO5iNyztaT0&feature=youtu.be&ab_channel=AlenaTikhonova" target="_blank" ><i class="fa fa-youtube"></i></a></li>
+        </ul>
+    </div>
+</div>
+    </div>
+
+</footer>
+
+
+<script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navigation").style.top = "0";
+      } else {
+        document.getElementById("navigation").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+    </script>
+    
 </body>
-
 </html>
