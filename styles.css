@@ -43,6 +43,7 @@ body, html {
   background-size: cover;
   position: relative;
   }
+
   .first{
     text-align: left;
     opacity: 0; 
@@ -92,6 +93,7 @@ body, html {
       transform: none;
     }
   }
+
 /*Nav*/
 /*navbar*/
 .navBar{
@@ -156,14 +158,10 @@ color: white;
 
 /*Home*/
 /*Title Animation*/
-.titleGradient{
-margin-bottom: 50px; 
-margin-top:100px;
-}
 
 .containerTitle{
   position: absolute;
-  margin-top: 100px;
+  margin-top: 10%;
 }
 
 .boxTitle{
