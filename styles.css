@@ -1142,11 +1142,11 @@ width: 90%;
 
 @media screen and (min-width: 1900px) {
 .containerTitle{
-  margin-top: 35%;
+  margin-top: 25%;
 }
 
 .card{
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 }
